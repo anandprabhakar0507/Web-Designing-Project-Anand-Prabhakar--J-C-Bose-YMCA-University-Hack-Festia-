@@ -1,6 +1,6 @@
 Web-Designing-Project-Anand-Prabhakar--J-C-Bose-YMCA-University-Hack-Festia
 this website is deployed at <br>
-[Github Pages](git.io/jtnvu)  <br>
+[Github Pages](https://anandprabhakar0507.github.io/Web-Designing-Project-Anand-Prabhakar--J-C-Bose-YMCA-University-Hack-Festia-/)  <br>
 and <br>
 [also here](http://digifesta.surge.sh/)
 <br>
