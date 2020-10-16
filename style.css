@@ -2,23 +2,34 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 body{
-    background: rgb(220, 240, 133);
+    
     color: rgba(105, 46, 46, 0.822);
+    margin: 2% 4% 1% 4%;
+    background: url('bg.jpg');
+    background-repeat: round;
 }
 
 header nav ul{
     list-style-type: none;
     display :flex;
+     
+    padding: 0 2% 0 2%;
 }
 header nav{
     position: fixed;
 }
 header nav ul li a{
     text-decoration: none;
-    color: rgba(105, 46, 46, 0.822);
-    background-color: rgb(238, 238, 124);
-    border: 2px solid rgb(102, 8, 8);
+    color: rgba(241, 255, 52, 0.822);
+    background-color: rgb(114, 2, 2);
+    border: 2px solid rgb(221, 213, 138);
     padding: 10px 10px 10px 10px ; 
+    margin-left: 15px;
+    
+}
+header nav ul li a:hover{
+    color: red;
+    background: rgba(255, 255, 0, 0.582);
 }
 ::-webkit-scrollbar{width: 7px;border-radius: 50%;}
 ::-webkit-scrollbar-track {background: rgb(225, 253, 100); border-radius: 50%;}
@@ -28,33 +39,29 @@ header nav ul li a{
 header nav ul li ul{
     list-style-type: none;
     display :none;
-    text-align: center;
 }
 header nav ul li{
-    line-height: 50px;
-    padding: 0 2% 0 2%;
-    text-align: center;
-    align-content: center;
+    line-height: 50px; 
 }
 header nav ul li:hover{
-    color: yellow;
-    background-color: blue;
+    color: yellow;  
+}
+div.img img{
+    border-radius: 15px;
+    width: 80%;
 }
 div#top{
     float: right;
 }
 header nav ul li:hover ul{
     list-style-type: none;
-    display :block;
-    color: rgb(68, 27, 214);
-    background-color: rgb(94, 0, 0);
-    border: 2px solid rgb(187, 184, 5);
+    color: rgb(222, 247, 0);
+    display: inline-block;
 }
-
-body{
-    margin: 2% 4% 10% 4%;
-    background:  url('bg.jpg');
-    
+header nav ul li ul li a:hover{
+    list-style-type: none;
+    color: rgb(68, 27, 214);
+    background-color: rgba(255, 252, 83, 0.4);
 }
 h1{
     color: rgb(131, 0, 55);
@@ -77,7 +84,7 @@ h3{
     color: rgba(240, 255, 104, 0.8);
     background:rgb(0, 8, 117);
     text-transform: uppercase;
-    transform: scaleX(1.5) scaleY(1.5);
+    transform: scaleX(1.2) scaleY(1.2);
 
 }
 #topbutton{
@@ -86,10 +93,35 @@ h3{
     
 }
 article{
-    background: rgba(35, 48, 56, 0.3);
+    background: linear-gradient(to right , rgba(35, 48, 56, 0.3) 5%,rgba(255, 0, 0, 0.192),rgba(255, 166, 0, 0.075),rgba(255, 255, 0, 0.13),rgba(0, 128, 0, 0.068),rgba(0, 0, 255, 0.11),rgba(76, 0, 130, 0.13),rgba(238, 130, 238, 0.199) );
+    
     padding: 15% 2% 5% 2%;
     color: rgba(252, 255, 47, 0.945);
     z-index: 5;
 }
 
+footer {
+    background:linear-gradient(to right, rgb(2, 71, 71),rgba(177, 21, 21, 0.349),orange,yellow,green,blue,indigo,violet);
+    
+    padding : 3px;
+    color: rgba(247, 36, 36, 0.945);
+    text-align:center;
+}
+#top {
+	
+	position: fixed;
+	bottom: 20px;
+	right: 30px;
+	z-index: 5;
+	font-size: 18px;
+	border: none;
+	outline: aqua;
+	color: white;
+	cursor: alias;
+	padding: 15px;
+	border-radius: 4px;
+  }
+footer a{text-decoration: none;
+    color: rgb(229, 245, 82);
 
+}
