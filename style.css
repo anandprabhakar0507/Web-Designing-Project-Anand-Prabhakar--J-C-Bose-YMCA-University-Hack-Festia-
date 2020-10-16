@@ -1,0 +1,88 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background: rgb(220, 240, 133);
+    color: rgba(105, 46, 46, 0.822);
+}
+
+header nav ul{
+    list-style-type: none;
+    display :flex;
+}
+header nav{
+    position: fixed;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: rgba(105, 46, 46, 0.822);
+    background-color: rgb(238, 238, 124);
+    border: 2px solid rgb(102, 8, 8);
+    padding: 10px 10px 10px 10px ; 
+}
+::-webkit-scrollbar{width: 7px;border-radius: 50%;}
+::-webkit-scrollbar-track {background: rgb(225, 253, 100); border-radius: 50%;}
+::-webkit-scrollbar-track:hover {background: #000000; border-radius: 35%;}
+::-webkit-scrollbar-thumb {background: rgb(6, 7, 0); border: 1px solid rgb(217, 255, 0);border-radius: 50%;}
+::-webkit-scrollbar-thumb:hover {background: rgb(171, 255, 102);border: 1px solid rgb(0, 0, 0);border-radius: 50%; }
+header nav ul li ul{
+    list-style-type: none;
+    display :none;
+    text-align: center;
+}
+header nav ul li{
+    line-height: 50px;
+    padding: 0 2% 0 2%;
+    text-align: center;
+    align-content: center;
+}
+header nav ul li:hover{
+    color: yellow;
+    background-color: blue;
+}
+div#top{
+    float: right;
+}
+header nav ul li:hover ul{
+    list-style-type: none;
+    display :block;
+    color: rgb(68, 27, 214);
+    background-color: rgb(94, 0, 0);
+    border: 2px solid rgb(187, 184, 5);
+}
+
+body{
+    margin: 2% 4% 10% 4%;
+    background:  url('bg.jpg');
+    
+}
+h1{
+    color: rgb(131, 0, 55);
+    text-align :center;
+}
+h3{
+    color: rgb(131, 0, 55);
+    text-align :left;
+}
+#full{
+    align-content: center;
+
+}
+.buttons{
+    color: rgba(163, 0, 0, 0.8);
+    background:rgb(236, 236, 110);
+
+}
+.buttons:hover{
+    color: rgba(240, 255, 104, 0.8);
+    background:rgb(0, 8, 117);
+
+}
+article{
+    background: rgba(35, 48, 56, 0.3);
+    padding: 15% 2% 5% 2%;
+    color: rgba(252, 255, 47, 0.945);
+    z-index: 5;
+}
+
+
