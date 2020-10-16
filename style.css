@@ -76,6 +76,8 @@ h3{
 .buttons:hover{
     color: rgba(240, 255, 104, 0.8);
     background:rgb(0, 8, 117);
+    text-transform: uppercase;
+    transform: scaleX(1.5) scaleY(1.5);
 
 }
 article{
