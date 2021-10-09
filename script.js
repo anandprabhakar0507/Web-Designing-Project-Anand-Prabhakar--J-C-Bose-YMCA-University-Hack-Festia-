@@ -25,13 +25,17 @@ document.onkeydown = function(e) {
         alert("you are not allowed to do so.");
         return false;
     }
+    if(e.keyCode == 120) {
+        alert("you are not allowed to do so.");
+        return false;
+    }
   }
 
 function big(n){
     if (document.body.style.fontSize == "") {
     document.getElementById('body').style.fontSize = "1.0em";
     }
-    document.getElementById('body').style.fontSize = parseFloat(document.body.style.fontSize) + (n * 0.2) + "em";
+    document.getElementById('body').style.fontSize = parseFloat(document.body.style.fontSize) + (n * 0.17) + "em";
 }
 
 function gofullscreen(){
@@ -82,7 +86,7 @@ function gofullscreen(){
     if (document.fullscreenEnabled || document.mozRequestFullScreen || document.webkitRequestFullscreen || document.msRequestFullscreen){
         // fullscreen is activated
         alert("For exiting Full screen please press F11 or Esc or back key");
-        document.getElementById('full').innerHTML = "Exit Full Screen";
+        document.getElementById('full').innerHTML = "Exit full toggle";
         
         document.documentElement.requestFullscreen();
         document.documentElement.mozRequestFullScreen();
@@ -107,7 +111,7 @@ function gototop() {
     
     window.onscroll = function() {scrollFunction()};                   
     function scrollFunction() {
-        if (document.body.scrollTop > 15 || document.documentElement.scrollTop > 15) {
+        if (document.body.scrollTop > 25 || document.documentElement.scrollTop > 25) {
             document.getElementById("top").style.display = "block";
         }else {
         document.getElementById("top").style.display = "none";
