@@ -39,7 +39,7 @@ function big(n) {
     document.getElementById("body").style.fontSize = "1.0em";
   }
   document.getElementById("body").style.fontSize =
-    parseFloat(document.body.style.fontSize) + n * 0.17 + "em";
+    parseFloat(document.body.style.fontSize) + n * 0.18 + "em";
 }
 
 function gofullscreen() {
@@ -68,6 +68,10 @@ function gofullscreen() {
     document.onkeydown = function (e) {
       if (event.keyCode == 123) {
         alert("you are not allowed to do so.");
+        return false;
+      }
+      if (event.keyCode == 121) {
+        alert("not allowed.");
         return false;
       }
       if (e.ctrlKey && e.shiftKey && e.keyCode == "I".charCodeAt(0)) {
@@ -159,6 +163,6 @@ function scrollFunction() {
 }
 
 function gototop() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
+  document.body.scrollTop = 0.5;
+  document.documentElement.scrollTop = 0.5;
 }
