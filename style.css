@@ -4,7 +4,7 @@
 body{
     
     color: rgba(105, 46, 46, 0.822);
-    margin: 2% 4% 1% 4%;
+    margin: 2% 3% 1% 3%;
     background: url('bg.jpg');
     background-repeat: round;
 }
@@ -97,14 +97,14 @@ article{
     
     padding: 15% 2% 5% 2%;
     color: rgba(252, 255, 47, 0.945);
-    z-index: 5;
+    z-index: 1;
 }
 
 footer {
     background:linear-gradient(to right, rgb(2, 71, 71),rgba(177, 21, 21, 0.349),orange,yellow,green,blue,indigo,violet);
     
     padding : 3px;
-    color: rgba(247, 36, 36, 0.945);
+    color: rgba(247, 36, 36, 0.95);
     text-align:center;
 }
 #top {
@@ -112,7 +112,7 @@ footer {
 	position: fixed;
 	bottom: 20px;
 	right: 30px;
-	z-index: 5;
+	z-index: 1;
 	font-size: 18px;
 	border: none;
 	outline: aqua;
